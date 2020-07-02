@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Stackwork - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ealldy\AppData\Local\Temp\RSP5C77.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\myprogram\Stackwork\bulid\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Stackwork.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\myprogram\Stackwork\bulid\src\main.cpp"
+"C:\myprogram\Stackwork\bulid\src\Match.cpp"
+"C:\myprogram\Stackwork\bulid\src\stack.cpp"
+]
+Creating command line "cl.exe @C:\Users\ealldy\AppData\Local\Temp\RSP5C77.tmp" 
+Creating temporary file "C:\Users\ealldy\AppData\Local\Temp\RSP5C78.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Stackwork.pdb" /debug /machine:I386 /out:"Debug/Stackwork.exe" /pdbtype:sept 
+.\Debug\main.obj
+.\Debug\Match.obj
+.\Debug\stack.obj
+]
+Creating command line "link.exe @C:\Users\ealldy\AppData\Local\Temp\RSP5C78.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Match.cpp
+stack.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Stackwork.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
